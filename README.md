@@ -12,7 +12,7 @@ This project demonstrates how to fine-tune a pre-trained transformer model on a 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/model_finetuning_project.git
+   git clone https://github.com/choosechart/fine-tune-cpu.git
    cd model_finetuning_project
    ```
 
