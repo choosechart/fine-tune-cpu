@@ -28,7 +28,7 @@ Alternatively, use `uv` to manage dependencies:
 
 ## Project Structure
 
-- `main.py`: Main script containing the fine-tuning logic.
+- `fine_tune.py`: Main script containing the fine-tuning logic.
 - `README.md`: This file, providing project overview and instructions.
 - `.gitignore`: Excludes unnecessary files (e.g., virtual environments, model checkpoints).
 
