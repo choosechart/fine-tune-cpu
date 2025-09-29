@@ -55,13 +55,12 @@ The project relies on the following Python libraries:
 2. Configure the model and LoRA settings in `main.py`.
 3. Run the fine-tuning script:
    ```bash
-   uv run python train.py --output_dir "./fine_tuned_distilbert" --model_name "distilbert/distilbert-base-uncased" --data_file_path "data_dict_example.json"
+   uv run python fine_tune.py --output_dir "./fine_tuned_distilbert" --model_name "distilbert/distilbert-base-uncased" --data_file_path "data_dict_example.json"
    ```
    Or, if using `uv`:
    ```bash
-   uv run python train.py --output_dir "./fine_tuned_distilbert" --model_name "distilbert/distilbert-base-uncased" --data_file_path "data_dict_example.json"
+   uv run python fine_tune.py --output_dir "./fine_tuned_distilbert" --model_name "distilbert/distilbert-base-uncased" --data_file_path "data_dict_example.json"
    ```
-uv run python script.py --output_dir "./fine_tuned_distilbert" --model_name "distilbert/distilbert-base-uncased" --data_file_path "data_dict_example.json"
 
 
 
